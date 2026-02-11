@@ -1,0 +1,52 @@
+<!-- basic jsPsych functionality -->
+<script src="https://unpkg.com/jspsych@7.3.2"></script>
+<!-- For keyboard response -->
+<script src="https://unpkg.com/@jspsych/plugin-audio-keyboard-response@1.1.3"></script>
+<!-- For consent form -->
+<script src="https://unpkg.com/@jspsych/plugin-html-button-response@1.1.2"></script>
+<!-- For keyboard use -->
+<script src="https://unpkg.com/@jspsych/plugin-html-keyboard-response@1.1.3"></script>
+
+<!-- Microphone permissions -->
+<script src="https://unpkg.com/@jspsych/plugin-initialize-microphone@1.0.3"></script>
+
+<!-- Recording function -->
+<script src="https://unpkg.com/@jspsych/plugin-html-audio-response@1.0.3"></script>
+
+<!-- Animation to show time -->
+<script src="https://unpkg.com/@jspsych/plugin-animation@1.1.3"></script>
+
+<!-- DataPipe -->
+<script src="https://unpkg.com/@jspsych-contrib/plugin-pipe"></script>
+
+<!-- For Survey -->
+<script src="https://unpkg.com/@jspsych/plugin-survey@1.0.1"></script>
+<link
+  rel="stylesheet"
+  href="https://unpkg.com/@jspsych/plugin-survey@1.0.1/css/survey.css"
+/>
+
+<!-- default jsPsych stylesheet -->
+<link
+  href="https://unpkg.com/jspsych@7.3.2/css/jspsych.css"
+  rel="stylesheet"
+  type="text/css"
+/>
+
+<!-- Our stylesheet -->
+<link href="experiment.css" rel="stylesheet" type="text/css" />
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- link the CSS file you made-->
+    <link href="experiment.css" rel="stylesheet" type="text/css" />
+
+    <!-- Tell the file to run some .js files -->
+    <script src="util.js"></script>
+    <script src="experiment.js"></script>
+
+    <!-- This is the name that will appear on the browser tab. -->
+    <title>Language Experiment</title>
+  </head>
+</html>
